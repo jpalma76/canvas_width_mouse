@@ -8,8 +8,8 @@ let initialY
 const dibujar = (cursorX,cursorY) => {
     context.beginPath()
     context.moveTo(initialX, initialY)
-    context.lineWidth = 10
-    context.strokeStyle = "#000"
+    context.lineWidth = 2
+    context.strokeStyle = "red"
     context.lineCap = "round"
     context.lineJoin = "round"
     context.lineTo(cursorX,cursorY)
